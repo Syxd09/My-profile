@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Syed Matheen - Professional Flutter Developer Portfolio"/>
+    <meta name="keywords" content="Flutter, Mobile Development, Dart, UI/UX" />
+    <meta property="og:title" content="Syed Matheen | Flutter Developer" />
+    <meta
+      property="og:description"
+      content="Professional Flutter Developer creating exceptional mobile experiences"
+    />
+    <meta property="og:image" content="image.jpg" />
+    <title>Syed Matheen | Python Developer</title>
+    <link rel="icon" href="icon.png" type="image/x-icon" />
+    <!-- Include Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <nav class="fixed w-full bg-gray-900 shadow-lg z-50">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+          <div class="flex items-center">
+            <img
+              class="w-10 h-10 rounded-full mr-3"
+              src="image.jpg"
+              alt="Logo"
+            />
+            <span class="text-gray-200 font-semibold text-xl"
+              >Syed Matheen</span
+            >
+          </div>
+          <div class="hidden md:flex space-x-6">
+            <a
+              href="#about"
+              class="text-gray-300 hover:text-blue-400 transition duration-300"
+              >About</a
+            >
+            <a
+              href="#skills"
+              class="text-gray-300 hover:text-blue-400 transition duration-300"
+              >Skills</a
+            >
+            <a
+              href="#projects"
+              class="text-gray-300 hover:text-blue-400 transition duration-300"
+              >Projects</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-300 hover:text-blue-400 transition duration-300"
+              >Contact</a
+            >
+          </div>
+          <div class="md:hidden">
+            <button
+              id="mobile-menu-button"
+              class="text-gray-300 hover:text-blue-400"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="pt-24 pb-12 px-4 bg-gradient-to-b from-gray-900 to-black text-gray-300"
+    >
+      <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <img
+          class="w-32 h-32 rounded-full border-4 border-blue-400 mb-6 md:mb-0 md:mr-8"
+          src="image.jpg"
+          alt="profile picture"
+        />
+        <div>
+          <h1 class="text-4xl font-bold mb-2">Syed Matheen</h1>
+          <p class="text-xl text-blue-400 mb-4">Python Developer</p>
+          <p class="text-gray-400 max-w-2xl mb-6">
+            Innovative and results-driven developer with a passion for building efficient, scalable solutions. Skilled in Python, web development, and AI technologies, with a keen eye for modern UI/UX.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#contact" 
+   class="bg-blue-500 hover:bg-[#1e46d5] text-white px-6 py-2 rounded-lg transition duration-300 ease-in transition duration-300 hover:transform hover:scale-105">
+   Hire Me
+</a>
+
+         
+
+            <a
+              href="#projects"
+              class="border border-blue-500 text-blue-500 hover:bg-[#1e46d5] hover:text-white px-6 py-2 rounded-lg transition duration-300 transition duration-300 hover:transform hover:scale-105"
+              >View Work</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+  id="about"
+  class="py-16 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-center"
+>
+  <div class="container mx-auto px-4">
+    <h2
+      class="text-3xl font-bold mb-8 text-white border-b-2 border-blue-400 pb-2 inline-block"
+    >
+      About Me
+    </h2>
+    <div class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform hover:scale-105 mx-0 auto text-left">
+      <p class="text-gray-300 mb-4 leading-relaxed">
+        A versatile developer with a passion for programming and web development. Proficient in multiple programming languages including Python, C, and C++, with hands-on experience in web technologies like HTML, CSS, and JavaScript. Skilled in building dynamic web applications using frameworks like React (with Vite and Next.js basics).
+      </p>
+      <p class="text-gray-300 mb-4 leading-relaxed">
+        Enthusiastic about AI and machine learning, with experience in Generative AI and leveraging the OpenAI API. Knowledgeable in working with databases such as MongoDB and SQL, and proficient in using version control with Git and GitHub. Additionally, well-versed in productivity tools like MS Word, PowerPoint, and Excel.
+      </p>
+      <p class="text-gray-300 leading-relaxed">
+        Eager to take on challenging projects that blend innovation and technology. Let's collaborate to create impactful solutions and make a difference!
+      </p>
+    </div>
+  </div>
+</section>
+
+    
+    
+    <section id="skills" class="py-16 bg-black" >
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-white border-b-2 border-blue-400 pb-2 inline-block">
+          Skills
+        </h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <!-- Programming Languages -->
+          <div class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform hover:scale-105 hover:bg-gray-900">
+            <div class="flex items-center mb-4">
+              <svg class="w-6 h-6 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h11M9 21V3m4 18V3m4 7h-4"></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-white">Programming Languages</h3>
+            </div>
+            <p class="text-gray-400">Python, C, C++</p>
+          </div>
+
+          <!-- Web Development -->
+          <div class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform hover:scale-105 hover:bg-gray-900">
+            <div class="flex items-center mb-4">
+              <svg class="w-6 h-6 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2zm14 7H5m0 4h9"></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-white">Web Development</h3>
+            </div>
+            <p class="text-gray-400">HTML, CSS, JavaScript</p>
+          </div>
+
+          <!-- AI & ML -->
+          <div class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform hover:scale-105 hover:bg-gray-900">
+            <div class="flex items-center mb-4">
+              <svg class="w-6 h-6 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m0-8h8m-8 0H4"></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-white">AI & ML</h3>
+            </div>
+            <p class="text-gray-400">Generative AI, OpenAI API</p>
+          </div>
+
+          <!-- Databases -->
+          <div class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform hover:scale-105 hover:bg-gray-900">
+            <div class="flex items-center mb-4">
+              <svg class="w-6 h-6 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6v12a2 2 0 002 2h12a2 2 0 002-2V6"></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-white">Databases</h3>
+            </div>
+            <p class="text-gray-400">MongoDB, SQL</p>
+          </div>
+
+          <!-- Software Tools -->
+          <div class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform hover:scale-105 hover:bg-gray-900">
+            <div class="flex items-center mb-4">
+              <svg class="w-6 h-6 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h18M9 21h6M5 21h2M17 21h2M7 3v18m10-18v18"></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-white">Software Tools</h3>
+            </div>
+            <p class="text-gray-400">MS Word, PowerPoint, Excel, Git & GitHub</p>
+          </div>
+
+          <!-- Frameworks -->
+          <div class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform hover:scale-105 hover:bg-gray-900">
+            <div class="flex items-center mb-4">
+              <svg class="w-6 h-6 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16M8 4v16m8-16v16"></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-white">Frameworks</h3>
+            </div>
+            <p class="text-gray-400">React (Vite), Next.js (basics)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projects"
+      class="py-16 bg-gradient-to-br from-gray-900 via-gray-800 to-black"
+    >
+      <div class="container mx-auto px-4">
+        <h2
+          class="text-3xl font-bold mb-8 text-white border-b-2 border-blue-400 pb-2 inline-block"
+        >
+          Projects
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Portfolio Website -->
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg transition duration-300 hover:transform hover:scale-105">
+            <img class="w-full h-48 object-cover" src="Portfolio Website.avif" alt="Portfolio Website" />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Portfolio Website</h3>
+              <p class="text-gray-400 mb-4">
+                A responsive portfolio website with smooth transitions, interactive hover effects, and a modern UI.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">HTML</span>
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">CSS (Tailwind)</span>
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">JavaScript</span>
+              </div>
+              <div class="flex justify-between">
+                <a href="#" class="text-blue-400 hover:text-blue-500 flex items-center">Live Demo</a>
+                <a href="#" class="text-blue-400 hover:text-blue-500 flex items-center">Code</a>
+              </div>
+            </div>
+          </div>
+        
+          <!-- AI Chatbot -->
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg transition duration-300 hover:transform hover:scale-105">
+            <img class="w-full h-48 object-cover" src="AI Chatbot.avif" alt="AI Chatbot" />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">AI Chatbot (ChatGPT-like)</h3>
+              <p class="text-gray-400 mb-4">
+                Developed a professional chatbot with OpenAI and DeepSeek API, featuring a responsive UI and real-time interactions (using AI tools).
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">Next.js</span>
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">OpenAI API</span>
+              </div>
+              <div class="flex justify-between">
+                <a href="#" class="text-blue-400 hover:text-blue-500 flex items-center">Live Demo</a>
+                <a href="#" class="text-blue-400 hover:text-blue-500 flex items-center">Code</a>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Shopping Cart -->
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg transition duration-300 hover:transform hover:scale-105">
+            <img class="w-full h-48 object-cover" src="Shopping Cart.avif" alt="Shopping Cart" />
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Shopping Cart</h3>
+              <p class="text-gray-400 mb-4">
+                A web-based shopping cart application featuring product listings, cart management, and checkout functionality.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">HTML</span>
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">CSS (Tailwind)</span>
+                <span class="bg-gray-700 text-blue-400 text-xs px-3 py-1 rounded-full">JavaScript</span>
+              </div>
+              <div class="flex justify-between">
+                <a href="#" class="text-blue-400 hover:text-blue-500 flex items-center">Live Demo</a>
+                <a href="#" class="text-blue-400 hover:text-blue-500 flex items-center">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+          
+      </div>
+    </section>
+    <section id="contact" class="py-16 bg-black">
+      <div class="container mx-auto px-4">
+        <h2
+          class="text-3xl font-bold mb-8 text-white border-b-2 border-blue-400 pb-2 inline-block"
+        >
+          Get In Touch
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div class="bg-gray-800 rounded-xl p-6 shadow-lg">
+            <form id="contact-form">
+              <div class="mb-4">
+                <label for="name" class="block text-white mb-2">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="w-full bg-gray-700 text-white border-0 rounded-lg p-3 focus:ring-2 focus:ring-blue-400 focus:outline-none"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-white mb-2">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="w-full bg-gray-700 text-white border-0 rounded-lg p-3 focus:ring-2 focus:ring-blue-400 focus:outline-none"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="message" class="block text-white mb-2"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  rows="5"
+                  class="w-full bg-gray-700 text-white border-0 rounded-lg p-3 focus:ring-2 focus:ring-blue-400 focus:outline-none"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition duration-300 w-full"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <div>
+            <div class="bg-gray-800 rounded-xl p-6 shadow-lg mb-6">
+              <h3 class="text-xl text-white font-semibold mb-4">
+                Contact Information
+              </h3>
+              <div class="space-y-4">
+                <div class="flex items-start">
+                  <svg
+                    class="w-6 h-6 text-blue-400 mr-3 mt-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    ></path>
+                  </svg>
+                  <div>
+                    <p class="text-gray-400">Email</p>
+                    <a
+                      href="mailto:syxdmatheen@gmail.com"
+                      class="text-white hover:text-blue-400"
+                      >syxdmatheen.9@gmail.com</a
+                    >
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <svg
+                    class="w-6 h-6 text-blue-400 mr-3 mt-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    ></path>
+                  </svg>
+                  <div>
+                    <p class="text-gray-400">Phone</p>
+                    <a
+                      href="tel:+91998877665544"
+                      class="text-white hover:text-blue-400"
+                      >+91 7619365978</a
+                    >
+                  </div>
+                </div>
+                <div class="flex items-start ">
+                  <svg
+                    class="w-6 h-6 text-blue-400 mr-3 mt-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                  </svg>
+                  <div>
+                    <p class="text-gray-400">Location</p>
+                    <p class="text-white">Bengaluru, IN</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 shadow-lg">
+              <h3 class="text-xl text-white font-semibold mb-4">Follow Me</h3>
+              <div class="flex space-x-4 ">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61574977256734"
+                  class="bg-gray-700 hover:bg-blue-500 text-white p-3 rounded-full transition duration-300 transition duration-300 hover:transform hover:scale-105"
+                  target="_blank"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://x.com/Syxd_Matheen"
+                  class="bg-gray-700 hover:bg-blue-500 text-white p-3 rounded-full transition duration-300 transition duration-300 hover:transform hover:scale-105"
+                  target="_blank"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.09-.193-7.715-2.157-10.141-5.126-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 14-7.503 14-14 0-.21-.005-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://www.instagram.com/syxd_.9/"
+                  class="bg-gray-700 hover:bg-blue-500 text-white p-3 rounded-full transition duration-300 transition duration-300 hover:transform hover:scale-105"
+                  target="_blank"
+                >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.75 2C4.126 2 2 4.126 2 7.75v8.5C2 19.874 4.126 22 7.75 22h8.5C19.874 22 22 19.874 22 16.25v-8.5C22 4.126 19.874 2 16.25 2h-8.5zM12 6.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 1.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM18 5.75a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0z"/>
+                </svg>
+                
+                </a>
+                <a
+                  href="https://github.com/Syxd09"
+                  class="bg-gray-700 hover:bg-blue-500 text-white p-3 rounded-full transition duration-300 transition duration-300 hover:transform hover:scale-105"
+                  target="_blank"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/syed-matheen-a38978294/"
+                  class="bg-gray-700 hover:bg-blue-500 text-white p-3 rounded-full transition duration-300 transition duration-300 hover:transform hover:scale-105"
+                  target="_blank"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-gray-900 text-gray-400 py-8">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <p>&copy; 2025 Syed Matheen. All rights reserved.</p>
+          </div>
+          <div>
+            <p>
+              Designed with <span class="text-red-500">❤</span> using Tailwind
+              CSS
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("mobile-menu-button").addEventListener("click", function () {
+  const mobileMenu = document.createElement("div");
+  mobileMenu.className = "fixed inset-0 bg-gray-900 bg-opacity-95 z-50 flex flex-col justify-center items-center animate__animated animate__fadeIn";
+  mobileMenu.style.animationDuration = "0.5s";
+  mobileMenu.innerHTML = `
+    <button id="close-menu" class="absolute top-4 right-4 text-gray-300 hover:text-blue-400">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <div class="flex flex-col space-y-6 text-center">
+      <a href="#about" class="text-gray-300 hover:text-blue-400 text-2xl transition duration-300">About</a>
+      <a href="#skills" class="text-gray-300 hover:text-blue-400 text-2xl transition duration-300">Skills</a>
+      <a href="#projects" class="text-gray-300 hover:text-blue-400 text-2xl transition duration-300">Projects</a>
+      <a href="#contact" class="text-gray-300 hover:text-blue-400 text-2xl transition duration-300">Contact</a>
+    </div>
+  `;
+
+  document.body.appendChild(mobileMenu);
+
+  document.getElementById("close-menu").addEventListener("click", function () {
+    document.body.removeChild(mobileMenu);
+  });
+});
+
+// Initialize EmailJS
+emailjs.init('YOUR_USER_ID'); // Replace with your actual user ID
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const serviceID = 'service_jb9snrb';
+    const templateID = 'template_yrlgjo4';
+
+    emailjs.sendForm(serviceID, templateID, this)
+      .then(() => {
+        alert('Message sent successfully!');
+        this.reset();
+      }, (err) => {
+        alert('Failed to send message. Please try again.');
+        console.error('EmailJS Error:', err);
+      });
+  });
+});
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - 80,
+        behavior: "smooth",
+      });
+    }
+  });
+});
+    </script>
+  </body>
+</html>
