@@ -26,7 +26,7 @@
 <body>
   <nav class="fixed w-full bg-gray-900 shadow-lg z-50">
     <div class="container mx-auto px-4">
-      <div class="flex justify-between items-center py-4">
+      <div class="flex justify-between items-right py-4">
         <div class="flex items-center">
           <img class="w-10 h-10 rounded-full mr-3" src="image.jpg" alt="Logo" />
           <span class="text-gray-200 font-semibold text-xl">Syed Matheen</span>
@@ -80,7 +80,10 @@
         About Me
       </h2>
       <div
-        class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform hover:scale-105 mx-0 auto text-left">
+        class="bg-gray-800 rounded-xl p-6 shadow-lg transition duration-300 hover:transform mx-0 auto text-left"
+        style="transition: transform 0.3s ease; will-change: transform;"
+        onmouseover="this.style.transform='scale(1.01)'" 
+        onmouseout="this.style.transform='scale(1)'">
         <p class="text-gray-300 mb-4 leading-relaxed">
           A versatile developer with a passion for programming and web development. Proficient in multiple programming
           languages including Python, C, and C++, with hands-on experience in web technologies like HTML, CSS, and
@@ -99,8 +102,6 @@
       </div>
     </div>
   </section>
-
-
 
   <section id="skills" class="py-16 bg-black">
     <div class="container mx-auto px-4">
@@ -134,7 +135,7 @@
             </svg>
             <h3 class="text-xl font-semibold text-white">Web Development</h3>
           </div>
-          <p class="text-gray-400">HTML, CSS, JavaScript</p>
+          <p class="text-gray-400">HTML, CSS(Tailwind), JavaScript</p>
         </div>
 
         <!-- AI & ML -->
@@ -147,7 +148,7 @@
             </svg>
             <h3 class="text-xl font-semibold text-white">AI & ML</h3>
           </div>
-          <p class="text-gray-400">Generative AI, OpenAI API</p>
+          <p class="text-gray-400">Generative AI,, DeepSeek API, OpenAI API, Google LLM</p>
         </div>
 
         <!-- Databases -->
@@ -161,7 +162,7 @@
             </svg>
             <h3 class="text-xl font-semibold text-white">Databases</h3>
           </div>
-          <p class="text-gray-400">MongoDB, SQL</p>
+          <p class="text-gray-400">MongoDB, MySQL, SQL</p>
         </div>
 
         <!-- Software Tools -->
@@ -228,9 +229,9 @@
           class="bg-gray-800 rounded-xl overflow-hidden shadow-lg transition duration-300 hover:transform hover:scale-105">
           <img class="w-full h-48 object-cover" src="AI Chatbot.avif" alt="AI Chatbot" />
           <div class="p-6">
-            <h3 class="text-xl font-bold text-white mb-2">AI Chatbot (ChatGPT-like)</h3>
+            <h3 class="text-xl font-bold text-white mb-2">Verblix (ChatGPT-like)</h3>
             <p class="text-gray-400 mb-4">
-              Developed a professional chatbot with OpenAI and DeepSeek API, featuring a responsive UI and real-time
+              Developed a professional chatbot with Google LLM API, featuring a responsive UI and real-time
               interactions (using AI tools).
             </p>
             <div class="flex flex-wrap gap-2 mb-4">
